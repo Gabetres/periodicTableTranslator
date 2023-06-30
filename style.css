@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #25293a;
+}
+
+h1 {
+    text-align: center;
+    /* margin: 25px 5px; */
+    margin-bottom: 25px;
+
+    font-size: 20px;
+}
+
+h2{
+    font-size: 12px;
+    color: red;
+    font-weight: 500;
+}
+
+input {
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+
+    color: black;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    padding: 30px 0px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 150px auto;
+
+    background-color: #191c28;
+    border-radius: 5px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_text {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+
+.square1 {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+
+    background-color: #ffa73c;
+    border-radius: 5px;
+
+
+}
+
+.square2 {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background-color: #973cff;
+    border-radius: 5px;
+
+
+}
+
+.square3 {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+
+    background-color: #ff3c53;
+    border-radius: 5px;
+
+
+}
+
+.eln{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+footer{
+    position: relative;
+    top: 70px;
+}
+
+a{
+    color: #ff3c53;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (min-width: 800px) {
+    .container {
+
+        height: 300px;
+        width: 750px;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        margin: 180px auto;
+    
+        background-color: #191c28;
+        border-radius: 5px;
+    }
+
+    input {
+        height: 30px;
+        width: 15%;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        outline: none;
+    
+        color: black;
+    }
+}

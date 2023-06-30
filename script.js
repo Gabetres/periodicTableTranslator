@@ -200,6 +200,9 @@ const tabelaPeriodica = [
            numatomic.innerHTML = elemento.numeroAtomico
            numatomic.style.backgroundColor = "#ff3c53";
 
+           let error = document.querySelector("#erro")
+           error.innerHTML = " ";
+
 /*            console.log("Elemento:", elemento.elemento);
            console.log("Símbolo:", elemento.simbolo);
            console.log("Número atômico:", elemento.numeroAtomico); */

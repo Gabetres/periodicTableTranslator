@@ -20,7 +20,8 @@ h1 {
 }
 
 h2{
-    font-size: 12px;
+    font-size: 20px;
+    margin-top: 15px;
     color: red;
     font-weight: 500;
 }
@@ -38,6 +39,7 @@ input {
 }
 
 .container {
+
     height: 100%;
     width: 100%;
     display: flex;
@@ -48,9 +50,9 @@ input {
     align-items: center;
     flex-direction: column;
 
-    margin: 150px auto;
+    margin: 170px auto;
 
-    background-color: #191c28;
+    /* background-color: #191c28; */
     border-radius: 5px;
 }
 
@@ -135,7 +137,7 @@ a{
     
         margin: 180px auto;
     
-        background-color: #191c28;
+        /* background-color: #191c28; */
         border-radius: 5px;
     }
 

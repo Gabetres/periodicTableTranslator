@@ -161,6 +161,19 @@ const tabelaPeriodica = [
            // Caso contrário, exiba uma mensagem de erro
            let error = document.querySelector("#erro")
            error.innerHTML = "Digite um valor valido"
+
+           let elem = document.querySelector("#elemento");
+           elem.innerHTML = " "
+           elem.style.backgroundColor = "unset";
+
+           let simb = document.querySelector("#simbolo");
+           simb.innerHTML = " "
+           simb.style.backgroundColor = "unset";
+
+           let numatomic = document.querySelector("#numeroatomico");
+           numatomic.innerHTML = " "
+           numatomic.style.backgroundColor = "unset";
+           
          }
        } else {
          // Busque o elemento correspondente pelo símbolo ou nome
@@ -191,12 +204,22 @@ const tabelaPeriodica = [
            console.log("Símbolo:", elemento.simbolo);
            console.log("Número atômico:", elemento.numeroAtomico); */
 
-           let error = document.querySelector("#erro")
-           error.innerHTML = " "
          } else {
            // Caso contrário, exiba uma mensagem de erro
            let error = document.querySelector("#erro")
            error.innerHTML = "Digite um valor valido"
+
+           let elem = document.querySelector("#elemento");
+           elem.innerHTML = " "
+           elem.style.backgroundColor = "unset";
+
+           let simb = document.querySelector("#simbolo");
+           simb.innerHTML = " "
+           simb.style.backgroundColor = "unset";
+
+           let numatomic = document.querySelector("#numeroatomico");
+           numatomic.innerHTML = " "
+           numatomic.style.backgroundColor = "unset";
          }
        }
 
